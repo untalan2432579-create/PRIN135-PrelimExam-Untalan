@@ -1,142 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>PRIN135-PrelimExam</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRIN135 - Midterm Exam | Portfolio</title>
+    <link rel="stylesheet" href="style.css"
 </head>
-<body>
-    
-  <header>
-    <nav>
-      <nav>
-      <a href="#profile">Profile</a> |
-      <a href="#skills">Skills</a> |
-      <a href="#education">Education</a> |
-      <a href="#awards">Awards and Achievements</a> |
-      <a href="#contact">Contact Me</a>
+
+<body id="top">
+
+    <!-- ---------- Navigation ---------- -->
+    <nav class="site-nav">
+        <div class="nav-inner">
+            <a href="#top" class="nav-brand">Portfolio</a>
+            <ul class="nav-links">
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
     </nav>
-  </header>
 
-  <hr>
-<main>
-  
-    <section id="profile">
-      <h2>Profile</h2>
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsXbfkOo9lXjL0dWAmFSmoJhaJGrDc2euwc18FeGIJaGiW1936Tlo_Bd1R&s=10" alt="Profile Picture" width="150" height="150">
-      
-      <h1>Franchesca G. Untalan</h1>
-      
-      <p>
-        <strong>Email:</strong> <a href="mailto:chesca0922@gmail.com">chesca0922@gmail.com</a>
-       <p>Phone: <a href="tel:+639171234567">+63 917 123 4567</a></p>| 
-        <a href="https://github.com/untalan2432579-create" target="_blank" rel="noopener noreferrer">GitHub Activity</a>
-      </p>
-      
-      <h2> About me</h2>
-      <p> I was born to be a diva.</p>
-    </section>
+    <!-- ---------- Header ---------- -->
+    <header class="site-header">
+        <div class="header-inner clearfix">
 
-  
-    <section id="skills">
-      <h2>Skills</h2>
-      <ul>
-        <li>Python</li>
-        <li>JavaScript</li>
-        <li>C++</li>
-        <li>MySQL</li>
+            <div class="photo-box">
+                <div class="photo-frame">
+                    <!-- Profile picture -->
+                    <img class="photo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsXbfkOo9lXjL0dWAmFSmoJhaJGrDc2euwc18FeGIJaGiW1936Tlo_Bd1R&s=10" alt="Profile Picture">
+                </div>
+            </div>
 
-      </ul>
-    </section>
+            <div class="header-text">
+                <h1 class="name">Franchesca G. Untalan</h1>
+                <ul class="header-links">
+                    <li><a href="tel:+639171234567">+63 917 123 4567</a></li>
+                    <li><a href="mailto:chesca0922@gmail.com">chesca0922@gmail.com</a></li>
+                    <li><a href="https://github.com/untalan2432579-create" target="_blank" rel="noopener noreferrer">GitHub Activity</a>
+                    </li>
+                </ul>
+                <p class="profile">
+                    I was born to be a diva.
+                </p>
+            </div>
 
-    <hr>
-
-    
-   <section id="education">
-      <h2>Education</h2>
-      <ol>
-        <li><strong>Elementary -</strong> Holy Spirit Academy of Malolos</li>
-        <li><strong>Highschool -</strong> Holy Spirit Academy of Malolos</li>
-        <li><strong>SHS -</strong> STEM at Holy Spirit Academy of Malolos</li>
-        <li><strong>College -</strong> BS Information Technology at Centro Escolar University of Malolos (2024-2026)</li>
-      </ol>
-    </section>
-
-   
-    <hr>
-
-   <section id="awards">
-      <h2>Awards and Achievements</h2>
-      <ol>
-        <li>Dean's Lister (2024-2025)</li>
-        <li>Tesda NC2 Certificate(2024)</li>
-        <li>Cisco Networking Academy Certificate(2025)</li>
-        <li>SQL Intermidiate Cerfication(2025)</li>
-        <li>GitHub Project Collaborator 2026</li>
-      </ol>
-    </section>
-   
-  
-    <hr>
-   
-    <section id="contact">
-      <h2>Contact Me</h2>
-      <form action="#" method="post">
-        <div>
-          <label for="name">Name:</label><br>
-          <input 
-            type="text" 
-            id="name" 
-            name="name" 
-            placeholder="Enter your name" 
-            maxlength="25" 
-            required
-          >
         </div>
-        <br>
-        <div>
-          <label for="email">Email:</label><br>
-          <input 
-            type="email" 
-            id="email" 
-            name="email" 
-            placeholder="chin@example.com" 
-            maxlength="25" 
-            required
-          >
-        </div>
-        <br>
+    </header>
 
-        <div>
-          <label for="message">Message:</label><br>
-          <textarea 
-            id="message" 
-            name="message" 
-            rows="4" 
-            cols="30" 
-            placeholder="Leave a message" 
-            maxlength="255" 
-            required
-          ></textarea>
-        </div>
-        <br>
+    <main class="wrapper">
 
-        <button type="submit">Give me a call!</button>
-      </form>
-    </section>
-  </main>
+        <!-- ---------- Skills ---------- -->
+        <section id="skills" class="card">
+            <h2>Skills</h2>
+            <ul class="skill-list">
+                <li>Python</li>
+                <li>JavaScript</li>
+                <li>C++</li>
+                <li>MySQL</li>
+            </ul>
+        </section>
 
-  <hr>
-  
-  <footer>
-    <nav>
-      <a href="#profile">Profile</a> |
-      <a href="#skills">Skills</a> |
-      <a href="#education">Education</a> |
-      <a href="#awards">Awards and Achievements</a> |
-      <a href="#contact">Contact Me</a>
-    </nav>
-  </footer>
+        <!-- ---------- Education ---------- -->
+        <section id="education" class="card">
+            <h2>Education</h2>
+
+            <div class="entry">
+                <span class="entry-year">2024 - 2026</span>
+                <h3>Bachelor of Science in Information Technology</h3>
+                <p class="entry-school">Centro Escolar University of Malolos</p>
+            </div>
+
+            <div class="entry">
+                <span class="entry-year">Senior High School</span>
+                <h3>STEM Strand</h3>
+                <p class="entry-school">Holy Spirit Academy of Malolos</p>
+            </div>
+
+            <div class="entry">
+                <span class="entry-year">High School</span>
+                <h3>High School</h3>
+                <p class="entry-school">Holy Spirit Academy of Malolos</p>
+            </div>
+
+            <div class="entry">
+                <span class="entry-year">Elementary</span>
+                <h3>Elementary Education</h3>
+                <p class="entry-school">Holy Spirit Academy of Malolos</p>
+            </div>
+        </section>
+
+        <!-- ---------- Achievements ---------- -->
+        <section id="achievements" class="card">
+            <h2>Achievements</h2>
+            <ul class="achievement-list">
+                <li>
+                    <strong>Dean's Lister</strong> - A.Y. 2024-2025
+                </li>
+                <li>
+                    <strong>TESDA NC II Certificate</strong> - 2024
+                </li>
+                <li>
+                    <strong>Cisco Networking Academy Certificate</strong> - 2025
+                </li>
+                <li>
+                    <strong>SQL Intermediate Certification</strong> - 2025
+                </li>
+                <li>
+                    <strong>GitHub Project Collaborator</strong> - 2026
+                </li>
+            </ul>
+        </section>
+
+        <!-- ---------- Contact me ---------- -->
+        <section id="contact" class="card">
+            <h2>Contact Me</h2>
+            <form class="contact-form" action="#" method="post">
+                <div class="form-row clearfix">
+                    <div class="field field-left">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                    </div>
+
+                    <div class="field field-right">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="chin@example.com" required>
+                    </div>
+                </div>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Leave a message" required></textarea>
+
+                <button type="submit">Give me a call!</button>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- ---------- Footer ---------- -->
+    <footer class="site-footer">
+        <p class="footer-name">Franchesca G. Untalan &middot; Portfolio</p>
+        <a href="#top" class="back-to-top">Back to top &uarr;</a>
+    </footer>
 
 </body>
+
 </html>
